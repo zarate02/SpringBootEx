@@ -30,6 +30,7 @@ https://start.spring.io/<br>
 방법은 두가지가 있다<br>
 1. https://start.spring.io/ 에서 들어가서 프로젝트를 생성한다음 내려받아 import 할수 있다<br>
 2. STS를 실행한뒤 File>New>SpringStarterProject 를 선택하여 프로젝트를 생성할 수 있다.<br>
+
 우리는 2번방법을 사용해서 프로젝트를 생성해보려고한다.<br>
 <br>
 <br>
