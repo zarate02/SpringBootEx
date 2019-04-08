@@ -42,3 +42,7 @@ https://start.spring.io/<br>
 1. eureka_ex (유레카서버) : https://github.com/zarate02/SpringBootEx/tree/master/eureka_ex<br>
 2. apigate_ex (APIGATEWAY) : https://github.com/zarate02/SpringBootEx/tree/master/eureka_ex<br>
 3. ora_ex (실서비스) : https://github.com/zarate02/SpringBootEx/tree/master/eureka_ex<br>
+
+각 서비스를 실행할때는 SpringBootApp 을 통해서 실행하고<br>
+웹페이지를 통해 http://localhost:22000/ora/Test001 서비스를 실행하여 eureka_ex, apigate_ex, ora_ex가 정상작동하는지 확인한다.
+
