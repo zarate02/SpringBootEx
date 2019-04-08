@@ -1,0 +1,42 @@
+10:17:29 Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$2741ba75] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+10:17:31 No active profile set, falling back to default profiles: default
+10:17:31 No MyBatis mapper was found in '[com.wintech]' package. Please check your configuration.
+10:17:31 BeanFactory id=b363dd7b-9af3-303c-b54e-730b07b37cf8
+10:17:31 Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$b27b778] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+10:17:31 Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$2741ba75] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+10:17:32 Tomcat initialized with port(s): 22001 (http)
+10:17:32 Initializing ProtocolHandler ["http-nio-22001"]
+10:17:32 Starting service [Tomcat]
+10:17:32 Starting Servlet engine: [Apache Tomcat/9.0.17]
+10:17:32 Initializing Spring embedded WebApplicationContext
+10:17:32 Root WebApplicationContext: initialization completed in 900 ms
+10:17:32 No URLs will be polled as dynamic configuration sources.
+10:17:32 To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+10:17:32 No URLs will be polled as dynamic configuration sources.
+10:17:32 To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+10:17:32 Initializing ExecutorService 'applicationTaskExecutor'
+10:17:32 Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'org.springframework.boot.autoconfigure.jdbc.DataSourceJmxConfiguration$Hikari': Invocation of init method failed; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'scopedTarget.dataSource' defined in class path resource [org/springframework/boot/autoconfigure/jdbc/DataSourceConfiguration$Hikari.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.zaxxer.hikari.HikariDataSource]: Factory method 'dataSource' threw exception; nested exception is org.springframework.boot.autoconfigure.jdbc.DataSourceProperties$DataSourceBeanCreationException: Failed to determine a suitable driver class
+10:17:32 Shutting down ExecutorService 'applicationTaskExecutor'
+10:17:32 Stopping service [Tomcat]
+10:17:32 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+10:17:32 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Failed to configure a DataSource: 'url' attribute is not specified and no embedded datasource could be configured.
+
+Reason: Failed to determine a suitable driver class
+
+
+Action:
+
+Consider the following:
+	If you want an embedded database (H2, HSQL or Derby), please put it on the classpath.
+	If you have database settings to be loaded from a particular profile you may need to activate it (no profiles are currently active).
+

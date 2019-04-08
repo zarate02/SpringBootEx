@@ -1,0 +1,124 @@
+10:02:08 Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$3959e576] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+10:02:10 No active profile set, falling back to default profiles: default
+10:02:11 Endpoint ID 'service-registry' contains invalid characters, please migrate to a valid format.
+10:02:11 BeanFactory id=602ebea7-ba56-317f-97d1-e20783f42ec0
+10:02:11 Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$3959e576] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+10:02:11 Tomcat initialized with port(s): 8761 (http)
+10:02:11 Initializing ProtocolHandler ["http-nio-8761"]
+10:02:11 Starting service [Tomcat]
+10:02:11 Starting Servlet engine: [Apache Tomcat/9.0.17]
+10:02:12 Initializing Spring embedded WebApplicationContext
+10:02:12 Root WebApplicationContext: initialization completed in 1429 ms
+10:02:12 No URLs will be polled as dynamic configuration sources.
+10:02:12 To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+10:02:12 DynamicPropertyFactory is initialized with configuration sources: com.netflix.config.ConcurrentCompositeConfiguration@245ec1a6
+10:02:14 Cannot determine local hostname
+10:02:14 Initiating Jersey application, version 'Jersey: 1.19.1 03/11/2016 02:08 PM'
+10:02:14 No URLs will be polled as dynamic configuration sources.
+10:02:14 To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+10:02:15 Initializing ExecutorService 'applicationTaskExecutor'
+10:02:16 Cannot determine local hostname
+10:02:16 Setting initial instance status as: STARTING
+10:02:17 Exposing 2 endpoint(s) beneath base path '/actuator'
+10:02:17 Registering application EXEUREKA with eureka with status UP
+10:02:17 Setting the eureka configuration..
+10:02:17 Eureka data center value eureka.datacenter is not set, defaulting to default
+10:02:17 Eureka environment value eureka.environment is not set, defaulting to test
+10:02:17 isAws returned false
+10:02:17 Initialized server context
+10:02:17 Starting ProtocolHandler ["http-nio-8761"]
+10:02:17 Started Eureka Server
+10:02:17 Tomcat started on port(s): 8761 (http) with context path ''
+10:02:17 Updating port to 8761
+10:02:17 Started EurekaExApplication in 10.266 seconds (JVM running for 11.546)
+10:02:24 Initializing Spring DispatcherServlet 'dispatcherServlet'
+10:02:24 Initializing Servlet 'dispatcherServlet'
+10:02:24 Completed initialization in 7 ms
+10:05:30 Application shutdown requested.
+10:05:30 Unregistering application EXEUREKA with eureka with status DOWN
+10:05:30 Shutting down ExecutorService 'applicationTaskExecutor'
+10:05:30 Pausing ProtocolHandler ["http-nio-8761"]
+10:08:51 Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$262122cc] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+10:08:53 No active profile set, falling back to default profiles: default
+10:08:54 Endpoint ID 'service-registry' contains invalid characters, please migrate to a valid format.
+10:08:54 BeanFactory id=602ebea7-ba56-317f-97d1-e20783f42ec0
+10:08:54 Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$262122cc] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+10:08:54 Tomcat initialized with port(s): 8761 (http)
+10:08:54 Initializing ProtocolHandler ["http-nio-8761"]
+10:08:54 Starting service [Tomcat]
+10:08:54 Starting Servlet engine: [Apache Tomcat/9.0.17]
+10:08:54 Initializing Spring embedded WebApplicationContext
+10:08:54 Root WebApplicationContext: initialization completed in 1058 ms
+10:08:54 No URLs will be polled as dynamic configuration sources.
+10:08:54 To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+10:08:54 DynamicPropertyFactory is initialized with configuration sources: com.netflix.config.ConcurrentCompositeConfiguration@6ed16657
+10:08:56 Cannot determine local hostname
+10:08:56 Initiating Jersey application, version 'Jersey: 1.19.1 03/11/2016 02:08 PM'
+10:08:57 No URLs will be polled as dynamic configuration sources.
+10:08:57 To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+10:08:57 Initializing ExecutorService 'applicationTaskExecutor'
+10:08:59 Cannot determine local hostname
+10:08:59 Setting initial instance status as: STARTING
+10:08:59 Exposing 2 endpoint(s) beneath base path '/actuator'
+10:08:59 Registering application EXEUREKA with eureka with status UP
+10:08:59 Setting the eureka configuration..
+10:08:59 Eureka data center value eureka.datacenter is not set, defaulting to default
+10:08:59 Eureka environment value eureka.environment is not set, defaulting to test
+10:08:59 isAws returned false
+10:08:59 Initialized server context
+10:08:59 Starting ProtocolHandler ["http-nio-8761"]
+10:08:59 Started Eureka Server
+10:08:59 Tomcat started on port(s): 8761 (http) with context path ''
+10:08:59 Updating port to 8761
+10:08:59 Started EurekaExApplication in 9.577 seconds (JVM running for 10.679)
+10:09:16 Initializing Spring DispatcherServlet 'dispatcherServlet'
+10:09:16 Initializing Servlet 'dispatcherServlet'
+10:09:16 Completed initialization in 6 ms
+10:24:50 Application shutdown requested.
+10:24:50 Unregistering application EXEUREKA with eureka with status DOWN
+10:24:50 Shutting down ExecutorService 'applicationTaskExecutor'
+10:24:50 Pausing ProtocolHandler ["http-nio-8761"]
+10:24:50 Stopping service [Tomcat]
+10:24:50 Destroying Spring FrameworkServlet 'dispatcherServlet'
+10:24:50 Stopping ProtocolHandler ["http-nio-8761"]
+10:24:50 Destroying ProtocolHandler ["http-nio-8761"]
+10:35:21 Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$d2b68ef7] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+10:35:23 No active profile set, falling back to default profiles: default
+10:35:23 Endpoint ID 'service-registry' contains invalid characters, please migrate to a valid format.
+10:35:24 BeanFactory id=602ebea7-ba56-317f-97d1-e20783f42ec0
+10:35:24 Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$d2b68ef7] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+10:35:24 Tomcat initialized with port(s): 8761 (http)
+10:35:24 Initializing ProtocolHandler ["http-nio-8761"]
+10:35:24 Starting service [Tomcat]
+10:35:24 Starting Servlet engine: [Apache Tomcat/9.0.17]
+10:35:24 Initializing Spring embedded WebApplicationContext
+10:35:24 Root WebApplicationContext: initialization completed in 1305 ms
+10:35:24 No URLs will be polled as dynamic configuration sources.
+10:35:24 To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+10:35:24 DynamicPropertyFactory is initialized with configuration sources: com.netflix.config.ConcurrentCompositeConfiguration@62db3891
+10:35:26 Cannot determine local hostname
+10:35:27 Initiating Jersey application, version 'Jersey: 1.19.1 03/11/2016 02:08 PM'
+10:35:27 No URLs will be polled as dynamic configuration sources.
+10:35:27 To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+10:35:27 Initializing ExecutorService 'applicationTaskExecutor'
+10:35:29 Cannot determine local hostname
+10:35:30 Setting initial instance status as: STARTING
+10:35:30 Exposing 2 endpoint(s) beneath base path '/actuator'
+10:35:30 Registering application EXEUREKA with eureka with status UP
+10:35:30 Setting the eureka configuration..
+10:35:30 Eureka data center value eureka.datacenter is not set, defaulting to default
+10:35:30 Eureka environment value eureka.environment is not set, defaulting to test
+10:35:30 Starting ProtocolHandler ["http-nio-8761"]
+10:35:30 isAws returned false
+10:35:30 Initialized server context
+10:35:30 Started Eureka Server
+10:35:30 Tomcat started on port(s): 8761 (http) with context path ''
+10:35:30 Updating port to 8761
+10:35:30 Started EurekaExApplication in 10.86 seconds (JVM running for 11.958)
+10:35:31 Initializing Spring DispatcherServlet 'dispatcherServlet'
+10:35:31 Initializing Servlet 'dispatcherServlet'
+10:35:31 Completed initialization in 10 ms
+13:02:23 Application shutdown requested.
+13:02:23 Unregistering application EXEUREKA with eureka with status DOWN
+13:02:23 Shutting down ExecutorService 'applicationTaskExecutor'
+13:02:23 Pausing ProtocolHandler ["http-nio-8761"]
