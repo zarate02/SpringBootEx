@@ -710,3 +710,51 @@ com.netflix.discovery.shared.transport.TransportException: Cannot execute reques
 13:02:21 DiscoveryClient_EXORA/localhost:exora:22001 - registration status: 204
 13:02:21 Shutting down ExecutorService 'applicationTaskExecutor'
 13:02:21 Shutting down DiscoveryClient ...
+14:44:45 Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$e167a20b] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+14:44:47 No active profile set, falling back to default profiles: default
+14:44:48 No MyBatis mapper was found in '[com.wintech]' package. Please check your configuration.
+14:44:48 BeanFactory id=1f97e199-82e4-34a6-a427-8ea0645c9eab
+14:44:48 Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$c54d9f0e] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+14:44:48 Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$e167a20b] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+14:44:48 Tomcat initialized with port(s): 22001 (http)
+14:44:48 Initializing ProtocolHandler ["http-nio-22001"]
+14:44:48 Starting service [Tomcat]
+14:44:48 Starting Servlet engine: [Apache Tomcat/9.0.17]
+14:44:49 Initializing Spring embedded WebApplicationContext
+14:44:49 Root WebApplicationContext: initialization completed in 1404 ms
+14:44:49 No URLs will be polled as dynamic configuration sources.
+14:44:49 To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+14:44:49 No URLs will be polled as dynamic configuration sources.
+14:44:49 To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+14:44:49 Initializing ExecutorService 'applicationTaskExecutor'
+14:44:51 Cannot determine local hostname
+14:44:53 Cannot determine local hostname
+14:44:53 Setting initial instance status as: STARTING
+14:44:53 Initializing Eureka in region us-east-1
+14:44:54 Using JSON encoding codec LegacyJacksonJson
+14:44:54 Using JSON decoding codec LegacyJacksonJson
+14:44:54 Using XML encoding codec XStreamXml
+14:44:54 Using XML decoding codec XStreamXml
+14:44:54 Resolving eureka endpoints via configuration
+14:44:54 Disable delta property : false
+14:44:54 Single vip registry refresh property : null
+14:44:54 Force full registry fetch : false
+14:44:54 Application is null : false
+14:44:54 Registered Applications size is zero : true
+14:44:54 Application version is -1: true
+14:44:54 Getting all instance registry info from the eureka server
+14:44:55 The response status is 200
+14:44:55 Starting heartbeat executor: renew interval is: 5
+14:44:55 InstanceInfoReplicator onDemand update allowed rate per min is 4
+14:44:55 Discovery Client initialized at timestamp 1554702295166 with initial instances count: 1
+14:44:55 Registering application EXORA with eureka with status UP
+14:44:55 Saw local status change event StatusChangeEvent [timestamp=1554702295172, current=UP, previous=STARTING]
+14:44:55 DiscoveryClient_EXORA/localhost:exora:22001: registering service...
+14:44:55 Starting ProtocolHandler ["http-nio-22001"]
+14:44:55 Tomcat started on port(s): 22001 (http) with context path ''
+14:44:55 Updating port to 22001
+14:44:55 Started OraExApplication in 11.446 seconds (JVM running for 12.597)
+14:44:55 DiscoveryClient_EXORA/localhost:exora:22001 - registration status: 204
+14:46:06 Initializing Spring DispatcherServlet 'dispatcherServlet'
+14:46:06 Initializing Servlet 'dispatcherServlet'
+14:46:06 Completed initialization in 8 ms
