@@ -1,0 +1,993 @@
+10:09:08 Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$10d48711] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+10:09:09 No active profile set, falling back to default profiles: default
+10:09:10 Endpoint ID 'service-registry' contains invalid characters, please migrate to a valid format.
+10:09:10 BeanFactory id=090a1570-c47c-3e13-ac1e-1c74b82df6c5
+10:09:10 Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$10d48711] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+10:09:10 Tomcat initialized with port(s): 22000 (http)
+10:09:10 Initializing ProtocolHandler ["http-nio-22000"]
+10:09:10 Starting service [Tomcat]
+10:09:10 Starting Servlet engine: [Apache Tomcat/9.0.17]
+10:09:10 Initializing Spring embedded WebApplicationContext
+10:09:10 Root WebApplicationContext: initialization completed in 1015 ms
+10:09:11 No URLs will be polled as dynamic configuration sources.
+10:09:11 To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+10:09:11 DynamicPropertyFactory is initialized with configuration sources: com.netflix.config.ConcurrentCompositeConfiguration@6438a7fe
+10:09:12 Cannot determine local hostname
+10:09:12 No URLs will be polled as dynamic configuration sources.
+10:09:12 To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+10:09:13 Initializing ExecutorService 'applicationTaskExecutor'
+10:09:14 Cannot determine local hostname
+10:09:14 Exposing 2 endpoint(s) beneath base path '/actuator'
+10:09:15 Setting initial instance status as: STARTING
+10:09:15 Initializing Eureka in region us-east-1
+10:09:15 Using JSON encoding codec LegacyJacksonJson
+10:09:15 Using JSON decoding codec LegacyJacksonJson
+10:09:15 Using XML encoding codec XStreamXml
+10:09:15 Using XML decoding codec XStreamXml
+10:09:15 Resolving eureka endpoints via configuration
+10:09:16 Disable delta property : false
+10:09:16 Single vip registry refresh property : null
+10:09:16 Force full registry fetch : false
+10:09:16 Application is null : false
+10:09:16 Registered Applications size is zero : true
+10:09:16 Application version is -1: true
+10:09:16 Getting all instance registry info from the eureka server
+10:09:16 The response status is 200
+10:09:16 Starting heartbeat executor: renew interval is: 30
+10:09:16 InstanceInfoReplicator onDemand update allowed rate per min is 4
+10:09:16 Discovery Client initialized at timestamp 1554685756449 with initial instances count: 0
+10:09:16 Registering application EXAPIGAATE with eureka with status UP
+10:09:16 Saw local status change event StatusChangeEvent [timestamp=1554685756452, current=UP, previous=STARTING]
+10:09:16 DiscoveryClient_EXAPIGAATE/localhost:exapigaate:22000: registering service...
+10:09:16 Starting ProtocolHandler ["http-nio-22000"]
+10:09:16 Tomcat started on port(s): 22000 (http) with context path ''
+10:09:16 Updating port to 22000
+10:09:16 Started ApigateExApplication in 10.324 seconds (JVM running for 11.388)
+10:09:16 DiscoveryClient_EXAPIGAATE/localhost:exapigaate:22000 - registration status: 204
+10:09:46 Disable delta property : false
+10:09:46 Single vip registry refresh property : null
+10:09:46 Force full registry fetch : false
+10:09:46 Application is null : false
+10:09:46 Registered Applications size is zero : true
+10:09:46 Application version is -1: false
+10:09:46 Getting all instance registry info from the eureka server
+10:09:46 The response status is 200
+10:09:54 Application shutdown requested.
+10:09:54 Unregistering application EXAPIGAATE with eureka with status DOWN
+10:09:54 Saw local status change event StatusChangeEvent [timestamp=1554685794767, current=DOWN, previous=UP]
+10:09:54 DiscoveryClient_EXAPIGAATE/localhost:exapigaate:22000: registering service...
+10:09:54 Shutting down ExecutorService 'applicationTaskExecutor'
+10:09:54 DiscoveryClient_EXAPIGAATE/localhost:exapigaate:22000 - registration status: 204
+10:09:54 Shutting down DiscoveryClient ...
+10:10:04 Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$a6e3c72c] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+10:10:06 No active profile set, falling back to default profiles: default
+10:10:07 Endpoint ID 'service-registry' contains invalid characters, please migrate to a valid format.
+10:10:07 BeanFactory id=090a1570-c47c-3e13-ac1e-1c74b82df6c5
+10:10:07 Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$a6e3c72c] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+10:10:07 Tomcat initialized with port(s): 22000 (http)
+10:10:07 Initializing ProtocolHandler ["http-nio-22000"]
+10:10:07 Starting service [Tomcat]
+10:10:07 Starting Servlet engine: [Apache Tomcat/9.0.17]
+10:10:07 Initializing Spring embedded WebApplicationContext
+10:10:07 Root WebApplicationContext: initialization completed in 1024 ms
+10:10:07 No URLs will be polled as dynamic configuration sources.
+10:10:07 To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+10:10:07 DynamicPropertyFactory is initialized with configuration sources: com.netflix.config.ConcurrentCompositeConfiguration@3c0bbc9f
+10:10:09 Cannot determine local hostname
+10:10:09 No URLs will be polled as dynamic configuration sources.
+10:10:09 To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+10:10:09 Initializing ExecutorService 'applicationTaskExecutor'
+10:10:11 Cannot determine local hostname
+10:10:11 Exposing 2 endpoint(s) beneath base path '/actuator'
+10:10:11 Setting initial instance status as: STARTING
+10:10:11 Initializing Eureka in region us-east-1
+10:10:12 Using JSON encoding codec LegacyJacksonJson
+10:10:12 Using JSON decoding codec LegacyJacksonJson
+10:10:12 Using XML encoding codec XStreamXml
+10:10:12 Using XML decoding codec XStreamXml
+10:10:12 Resolving eureka endpoints via configuration
+10:10:12 Disable delta property : false
+10:10:12 Single vip registry refresh property : null
+10:10:12 Force full registry fetch : false
+10:10:12 Application is null : false
+10:10:12 Registered Applications size is zero : true
+10:10:12 Application version is -1: true
+10:10:12 Getting all instance registry info from the eureka server
+10:10:13 The response status is 200
+10:10:13 Starting heartbeat executor: renew interval is: 30
+10:10:13 InstanceInfoReplicator onDemand update allowed rate per min is 4
+10:10:13 Discovery Client initialized at timestamp 1554685813033 with initial instances count: 1
+10:10:13 Registering application EXAPIGAATE with eureka with status UP
+10:10:13 Saw local status change event StatusChangeEvent [timestamp=1554685813034, current=UP, previous=STARTING]
+10:10:13 DiscoveryClient_EXAPIGAATE/localhost:exapigaate:22000: registering service...
+10:10:13 Starting ProtocolHandler ["http-nio-22000"]
+10:10:13 DiscoveryClient_EXAPIGAATE/localhost:exapigaate:22000 - registration status: 204
+10:10:13 Tomcat started on port(s): 22000 (http) with context path ''
+10:10:13 Updating port to 22000
+10:10:13 Started ApigateExApplication in 10.238 seconds (JVM running for 11.343)
+10:15:12 Resolving eureka endpoints via configuration
+10:20:12 Resolving eureka endpoints via configuration
+10:24:52 Application shutdown requested.
+10:24:52 Unregistering application EXAPIGAATE with eureka with status DOWN
+10:24:52 Saw local status change event StatusChangeEvent [timestamp=1554686692056, current=DOWN, previous=UP]
+10:24:52 DiscoveryClient_EXAPIGAATE/localhost:exapigaate:22000: registering service...
+10:24:52 Shutting down ExecutorService 'applicationTaskExecutor'
+10:24:52 Shutting down DiscoveryClient ...
+10:24:54 Request execution error. endpoint=DefaultEndpoint{ serviceUrl='http://localhost:8761/eureka/}
+com.sun.jersey.api.client.ClientHandlerException: java.net.ConnectException: Connection refused: connect
+	at com.sun.jersey.client.apache4.ApacheHttpClient4Handler.handle(ApacheHttpClient4Handler.java:187)
+	at com.sun.jersey.api.client.filter.GZIPContentEncodingFilter.handle(GZIPContentEncodingFilter.java:123)
+	at com.netflix.discovery.EurekaIdentityHeaderFilter.handle(EurekaIdentityHeaderFilter.java:27)
+	at com.sun.jersey.api.client.Client.handle(Client.java:652)
+	at com.sun.jersey.api.client.WebResource.handle(WebResource.java:682)
+	at com.sun.jersey.api.client.WebResource.access$200(WebResource.java:74)
+	at com.sun.jersey.api.client.WebResource$Builder.post(WebResource.java:570)
+	at com.netflix.discovery.shared.transport.jersey.AbstractJerseyEurekaHttpClient.register(AbstractJerseyEurekaHttpClient.java:56)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$1.execute(EurekaHttpClientDecorator.java:59)
+	at com.netflix.discovery.shared.transport.decorator.MetricsCollectingEurekaHttpClient.execute(MetricsCollectingEurekaHttpClient.java:73)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.register(EurekaHttpClientDecorator.java:56)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$1.execute(EurekaHttpClientDecorator.java:59)
+	at com.netflix.discovery.shared.transport.decorator.RedirectingEurekaHttpClient.execute(RedirectingEurekaHttpClient.java:89)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.register(EurekaHttpClientDecorator.java:56)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$1.execute(EurekaHttpClientDecorator.java:59)
+	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:120)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.register(EurekaHttpClientDecorator.java:56)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$1.execute(EurekaHttpClientDecorator.java:59)
+	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:77)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.register(EurekaHttpClientDecorator.java:56)
+	at com.netflix.discovery.DiscoveryClient.register(DiscoveryClient.java:829)
+	at com.netflix.discovery.InstanceInfoReplicator.run(InstanceInfoReplicator.java:121)
+	at com.netflix.discovery.InstanceInfoReplicator$1.run(InstanceInfoReplicator.java:101)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(Unknown Source)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.doConnect(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.connect(Unknown Source)
+	at java.net.PlainSocketImpl.connect(Unknown Source)
+	at java.net.SocksSocketImpl.connect(Unknown Source)
+	at java.net.Socket.connect(Unknown Source)
+	at org.apache.http.conn.scheme.PlainSocketFactory.connectSocket(PlainSocketFactory.java:121)
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:180)
+	at org.apache.http.impl.conn.AbstractPoolEntry.open(AbstractPoolEntry.java:144)
+	at org.apache.http.impl.conn.AbstractPooledConnAdapter.open(AbstractPooledConnAdapter.java:134)
+	at org.apache.http.impl.client.DefaultRequestDirector.tryConnect(DefaultRequestDirector.java:605)
+	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:440)
+	at org.apache.http.impl.client.AbstractHttpClient.doExecute(AbstractHttpClient.java:835)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:118)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:56)
+	at com.sun.jersey.client.apache4.ApacheHttpClient4Handler.handle(ApacheHttpClient4Handler.java:173)
+	... 29 common frames omitted
+10:24:54 Request execution failed with message: java.net.ConnectException: Connection refused: connect
+10:24:55 Unregistering ...
+10:24:56 Request execution error. endpoint=DefaultEndpoint{ serviceUrl='http://localhost:8761/eureka/}
+com.sun.jersey.api.client.ClientHandlerException: java.net.ConnectException: Connection refused: connect
+	at com.sun.jersey.client.apache4.ApacheHttpClient4Handler.handle(ApacheHttpClient4Handler.java:187)
+	at com.sun.jersey.api.client.filter.GZIPContentEncodingFilter.handle(GZIPContentEncodingFilter.java:123)
+	at com.netflix.discovery.EurekaIdentityHeaderFilter.handle(EurekaIdentityHeaderFilter.java:27)
+	at com.sun.jersey.api.client.Client.handle(Client.java:652)
+	at com.sun.jersey.api.client.WebResource.handle(WebResource.java:682)
+	at com.sun.jersey.api.client.WebResource.access$200(WebResource.java:74)
+	at com.sun.jersey.api.client.WebResource$Builder.post(WebResource.java:570)
+	at com.netflix.discovery.shared.transport.jersey.AbstractJerseyEurekaHttpClient.register(AbstractJerseyEurekaHttpClient.java:56)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$1.execute(EurekaHttpClientDecorator.java:59)
+	at com.netflix.discovery.shared.transport.decorator.MetricsCollectingEurekaHttpClient.execute(MetricsCollectingEurekaHttpClient.java:73)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.register(EurekaHttpClientDecorator.java:56)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$1.execute(EurekaHttpClientDecorator.java:59)
+	at com.netflix.discovery.shared.transport.decorator.RedirectingEurekaHttpClient.executeOnNewServer(RedirectingEurekaHttpClient.java:118)
+	at com.netflix.discovery.shared.transport.decorator.RedirectingEurekaHttpClient.execute(RedirectingEurekaHttpClient.java:79)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.register(EurekaHttpClientDecorator.java:56)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$1.execute(EurekaHttpClientDecorator.java:59)
+	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:120)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.register(EurekaHttpClientDecorator.java:56)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$1.execute(EurekaHttpClientDecorator.java:59)
+	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:77)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.register(EurekaHttpClientDecorator.java:56)
+	at com.netflix.discovery.DiscoveryClient.register(DiscoveryClient.java:829)
+	at com.netflix.discovery.InstanceInfoReplicator.run(InstanceInfoReplicator.java:121)
+	at com.netflix.discovery.InstanceInfoReplicator$1.run(InstanceInfoReplicator.java:101)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(Unknown Source)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.doConnect(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.connect(Unknown Source)
+	at java.net.PlainSocketImpl.connect(Unknown Source)
+	at java.net.SocksSocketImpl.connect(Unknown Source)
+	at java.net.Socket.connect(Unknown Source)
+	at org.apache.http.conn.scheme.PlainSocketFactory.connectSocket(PlainSocketFactory.java:121)
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:180)
+	at org.apache.http.impl.conn.AbstractPoolEntry.open(AbstractPoolEntry.java:144)
+	at org.apache.http.impl.conn.AbstractPooledConnAdapter.open(AbstractPooledConnAdapter.java:134)
+	at org.apache.http.impl.client.DefaultRequestDirector.tryConnect(DefaultRequestDirector.java:605)
+	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:440)
+	at org.apache.http.impl.client.AbstractHttpClient.doExecute(AbstractHttpClient.java:835)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:118)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:56)
+	at com.sun.jersey.client.apache4.ApacheHttpClient4Handler.handle(ApacheHttpClient4Handler.java:173)
+	... 30 common frames omitted
+10:24:56 Request execution failed with message: java.net.ConnectException: Connection refused: connect
+10:24:56 DiscoveryClient_EXAPIGAATE/localhost:exapigaate:22000 - registration failed Cannot execute request on any known server
+com.netflix.discovery.shared.transport.TransportException: Cannot execute request on any known server
+	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:112)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.register(EurekaHttpClientDecorator.java:56)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$1.execute(EurekaHttpClientDecorator.java:59)
+	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:77)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.register(EurekaHttpClientDecorator.java:56)
+	at com.netflix.discovery.DiscoveryClient.register(DiscoveryClient.java:829)
+	at com.netflix.discovery.InstanceInfoReplicator.run(InstanceInfoReplicator.java:121)
+	at com.netflix.discovery.InstanceInfoReplicator$1.run(InstanceInfoReplicator.java:101)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(Unknown Source)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+10:24:56 There was a problem with the instance info replicator
+com.netflix.discovery.shared.transport.TransportException: Cannot execute request on any known server
+	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:112)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.register(EurekaHttpClientDecorator.java:56)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$1.execute(EurekaHttpClientDecorator.java:59)
+	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:77)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.register(EurekaHttpClientDecorator.java:56)
+	at com.netflix.discovery.DiscoveryClient.register(DiscoveryClient.java:829)
+	at com.netflix.discovery.InstanceInfoReplicator.run(InstanceInfoReplicator.java:121)
+	at com.netflix.discovery.InstanceInfoReplicator$1.run(InstanceInfoReplicator.java:101)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(Unknown Source)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+10:24:57 Request execution error. endpoint=DefaultEndpoint{ serviceUrl='http://localhost:8761/eureka/}
+com.sun.jersey.api.client.ClientHandlerException: java.net.ConnectException: Connection refused: connect
+	at com.sun.jersey.client.apache4.ApacheHttpClient4Handler.handle(ApacheHttpClient4Handler.java:187)
+	at com.sun.jersey.api.client.filter.GZIPContentEncodingFilter.handle(GZIPContentEncodingFilter.java:123)
+	at com.netflix.discovery.EurekaIdentityHeaderFilter.handle(EurekaIdentityHeaderFilter.java:27)
+	at com.sun.jersey.api.client.Client.handle(Client.java:652)
+	at com.sun.jersey.api.client.WebResource.handle(WebResource.java:682)
+	at com.sun.jersey.api.client.WebResource.access$200(WebResource.java:74)
+	at com.sun.jersey.api.client.WebResource$Builder.delete(WebResource.java:591)
+	at com.netflix.discovery.shared.transport.jersey.AbstractJerseyEurekaHttpClient.cancel(AbstractJerseyEurekaHttpClient.java:76)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$2.execute(EurekaHttpClientDecorator.java:74)
+	at com.netflix.discovery.shared.transport.decorator.MetricsCollectingEurekaHttpClient.execute(MetricsCollectingEurekaHttpClient.java:73)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.cancel(EurekaHttpClientDecorator.java:71)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$2.execute(EurekaHttpClientDecorator.java:74)
+	at com.netflix.discovery.shared.transport.decorator.RedirectingEurekaHttpClient.executeOnNewServer(RedirectingEurekaHttpClient.java:118)
+	at com.netflix.discovery.shared.transport.decorator.RedirectingEurekaHttpClient.execute(RedirectingEurekaHttpClient.java:79)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.cancel(EurekaHttpClientDecorator.java:71)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$2.execute(EurekaHttpClientDecorator.java:74)
+	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:120)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.cancel(EurekaHttpClientDecorator.java:71)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$2.execute(EurekaHttpClientDecorator.java:74)
+	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:77)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.cancel(EurekaHttpClientDecorator.java:71)
+	at com.netflix.discovery.DiscoveryClient.unregister(DiscoveryClient.java:923)
+	at com.netflix.discovery.DiscoveryClient.shutdown(DiscoveryClient.java:901)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor$LifecycleElement.invoke(InitDestroyAnnotationBeanPostProcessor.java:363)
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor$LifecycleMetadata.invokeDestroyMethods(InitDestroyAnnotationBeanPostProcessor.java:321)
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor.postProcessBeforeDestruction(InitDestroyAnnotationBeanPostProcessor.java:156)
+	at org.springframework.beans.factory.support.DisposableBeanAdapter.destroy(DisposableBeanAdapter.java:240)
+	at org.springframework.beans.factory.support.DisposableBeanAdapter.run(DisposableBeanAdapter.java:233)
+	at org.springframework.cloud.context.scope.GenericScope$BeanLifecycleWrapper.destroy(GenericScope.java:403)
+	at org.springframework.cloud.context.scope.GenericScope.destroy(GenericScope.java:142)
+	at org.springframework.beans.factory.support.DisposableBeanAdapter.destroy(DisposableBeanAdapter.java:256)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroyBean(DefaultSingletonBeanRegistry.java:571)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroySingleton(DefaultSingletonBeanRegistry.java:543)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.destroySingleton(DefaultListableBeanFactory.java:1055)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroySingletons(DefaultSingletonBeanRegistry.java:504)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.destroySingletons(DefaultListableBeanFactory.java:1062)
+	at org.springframework.context.support.AbstractApplicationContext.destroyBeans(AbstractApplicationContext.java:1057)
+	at org.springframework.context.support.AbstractApplicationContext.doClose(AbstractApplicationContext.java:1026)
+	at org.springframework.context.support.AbstractApplicationContext.close(AbstractApplicationContext.java:975)
+	at org.springframework.boot.admin.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin.shutdown(SpringApplicationAdminMXBeanRegistrar.java:164)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at sun.reflect.misc.Trampoline.invoke(Unknown Source)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at sun.reflect.misc.MethodUtil.invoke(Unknown Source)
+	at com.sun.jmx.mbeanserver.ConvertingMethod.invokeWithOpenReturn(Unknown Source)
+	at com.sun.jmx.mbeanserver.ConvertingMethod.invokeWithOpenReturn(Unknown Source)
+	at com.sun.jmx.mbeanserver.MXBeanIntrospector.invokeM2(Unknown Source)
+	at com.sun.jmx.mbeanserver.MXBeanIntrospector.invokeM2(Unknown Source)
+	at com.sun.jmx.mbeanserver.MBeanIntrospector.invokeM(Unknown Source)
+	at com.sun.jmx.mbeanserver.PerInterface.invoke(Unknown Source)
+	at com.sun.jmx.mbeanserver.MBeanSupport.invoke(Unknown Source)
+	at com.sun.jmx.interceptor.DefaultMBeanServerInterceptor.invoke(Unknown Source)
+	at com.sun.jmx.mbeanserver.JmxMBeanServer.invoke(Unknown Source)
+	at javax.management.remote.rmi.RMIConnectionImpl.doOperation(Unknown Source)
+	at javax.management.remote.rmi.RMIConnectionImpl.access$300(Unknown Source)
+	at javax.management.remote.rmi.RMIConnectionImpl$PrivilegedOperation.run(Unknown Source)
+	at javax.management.remote.rmi.RMIConnectionImpl.doPrivilegedOperation(Unknown Source)
+	at javax.management.remote.rmi.RMIConnectionImpl.invoke(Unknown Source)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at sun.rmi.server.UnicastServerRef.dispatch(Unknown Source)
+	at sun.rmi.transport.Transport$1.run(Unknown Source)
+	at sun.rmi.transport.Transport$1.run(Unknown Source)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at sun.rmi.transport.Transport.serviceCall(Unknown Source)
+	at sun.rmi.transport.tcp.TCPTransport.handleMessages(Unknown Source)
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run0(Unknown Source)
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.lambda$run$0(Unknown Source)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.doConnect(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.connect(Unknown Source)
+	at java.net.PlainSocketImpl.connect(Unknown Source)
+	at java.net.SocksSocketImpl.connect(Unknown Source)
+	at java.net.Socket.connect(Unknown Source)
+	at org.apache.http.conn.scheme.PlainSocketFactory.connectSocket(PlainSocketFactory.java:121)
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:180)
+	at org.apache.http.impl.conn.AbstractPoolEntry.open(AbstractPoolEntry.java:144)
+	at org.apache.http.impl.conn.AbstractPooledConnAdapter.open(AbstractPooledConnAdapter.java:134)
+	at org.apache.http.impl.client.DefaultRequestDirector.tryConnect(DefaultRequestDirector.java:605)
+	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:440)
+	at org.apache.http.impl.client.AbstractHttpClient.doExecute(AbstractHttpClient.java:835)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:118)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:56)
+	at com.sun.jersey.client.apache4.ApacheHttpClient4Handler.handle(ApacheHttpClient4Handler.java:173)
+	... 84 common frames omitted
+10:24:57 Request execution failed with message: java.net.ConnectException: Connection refused: connect
+10:24:57 DiscoveryClient_EXAPIGAATE/localhost:exapigaate:22000 - de-registration failedCannot execute request on any known server
+com.netflix.discovery.shared.transport.TransportException: Cannot execute request on any known server
+	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:112)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.cancel(EurekaHttpClientDecorator.java:71)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$2.execute(EurekaHttpClientDecorator.java:74)
+	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:77)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.cancel(EurekaHttpClientDecorator.java:71)
+	at com.netflix.discovery.DiscoveryClient.unregister(DiscoveryClient.java:923)
+	at com.netflix.discovery.DiscoveryClient.shutdown(DiscoveryClient.java:901)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor$LifecycleElement.invoke(InitDestroyAnnotationBeanPostProcessor.java:363)
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor$LifecycleMetadata.invokeDestroyMethods(InitDestroyAnnotationBeanPostProcessor.java:321)
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor.postProcessBeforeDestruction(InitDestroyAnnotationBeanPostProcessor.java:156)
+	at org.springframework.beans.factory.support.DisposableBeanAdapter.destroy(DisposableBeanAdapter.java:240)
+	at org.springframework.beans.factory.support.DisposableBeanAdapter.run(DisposableBeanAdapter.java:233)
+	at org.springframework.cloud.context.scope.GenericScope$BeanLifecycleWrapper.destroy(GenericScope.java:403)
+	at org.springframework.cloud.context.scope.GenericScope.destroy(GenericScope.java:142)
+	at org.springframework.beans.factory.support.DisposableBeanAdapter.destroy(DisposableBeanAdapter.java:256)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroyBean(DefaultSingletonBeanRegistry.java:571)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroySingleton(DefaultSingletonBeanRegistry.java:543)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.destroySingleton(DefaultListableBeanFactory.java:1055)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroySingletons(DefaultSingletonBeanRegistry.java:504)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.destroySingletons(DefaultListableBeanFactory.java:1062)
+	at org.springframework.context.support.AbstractApplicationContext.destroyBeans(AbstractApplicationContext.java:1057)
+	at org.springframework.context.support.AbstractApplicationContext.doClose(AbstractApplicationContext.java:1026)
+	at org.springframework.context.support.AbstractApplicationContext.close(AbstractApplicationContext.java:975)
+	at org.springframework.boot.admin.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin.shutdown(SpringApplicationAdminMXBeanRegistrar.java:164)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at sun.reflect.misc.Trampoline.invoke(Unknown Source)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at sun.reflect.misc.MethodUtil.invoke(Unknown Source)
+	at com.sun.jmx.mbeanserver.ConvertingMethod.invokeWithOpenReturn(Unknown Source)
+	at com.sun.jmx.mbeanserver.ConvertingMethod.invokeWithOpenReturn(Unknown Source)
+	at com.sun.jmx.mbeanserver.MXBeanIntrospector.invokeM2(Unknown Source)
+	at com.sun.jmx.mbeanserver.MXBeanIntrospector.invokeM2(Unknown Source)
+	at com.sun.jmx.mbeanserver.MBeanIntrospector.invokeM(Unknown Source)
+	at com.sun.jmx.mbeanserver.PerInterface.invoke(Unknown Source)
+	at com.sun.jmx.mbeanserver.MBeanSupport.invoke(Unknown Source)
+	at com.sun.jmx.interceptor.DefaultMBeanServerInterceptor.invoke(Unknown Source)
+	at com.sun.jmx.mbeanserver.JmxMBeanServer.invoke(Unknown Source)
+	at javax.management.remote.rmi.RMIConnectionImpl.doOperation(Unknown Source)
+	at javax.management.remote.rmi.RMIConnectionImpl.access$300(Unknown Source)
+	at javax.management.remote.rmi.RMIConnectionImpl$PrivilegedOperation.run(Unknown Source)
+	at javax.management.remote.rmi.RMIConnectionImpl.doPrivilegedOperation(Unknown Source)
+	at javax.management.remote.rmi.RMIConnectionImpl.invoke(Unknown Source)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at sun.rmi.server.UnicastServerRef.dispatch(Unknown Source)
+	at sun.rmi.transport.Transport$1.run(Unknown Source)
+	at sun.rmi.transport.Transport$1.run(Unknown Source)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at sun.rmi.transport.Transport.serviceCall(Unknown Source)
+	at sun.rmi.transport.tcp.TCPTransport.handleMessages(Unknown Source)
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run0(Unknown Source)
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.lambda$run$0(Unknown Source)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+10:24:57 Completed shut down of DiscoveryClient
+10:24:57 Pausing ProtocolHandler ["http-nio-22000"]
+10:24:57 Stopping service [Tomcat]
+10:24:57 Stopping ProtocolHandler ["http-nio-22000"]
+10:24:57 Destroying ProtocolHandler ["http-nio-22000"]
+10:35:24 Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$d32257cb] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+10:35:26 No active profile set, falling back to default profiles: default
+10:35:27 Endpoint ID 'service-registry' contains invalid characters, please migrate to a valid format.
+10:35:27 BeanFactory id=090a1570-c47c-3e13-ac1e-1c74b82df6c5
+10:35:27 Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$d32257cb] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+10:35:27 Tomcat initialized with port(s): 22000 (http)
+10:35:27 Initializing ProtocolHandler ["http-nio-22000"]
+10:35:27 Starting service [Tomcat]
+10:35:27 Starting Servlet engine: [Apache Tomcat/9.0.17]
+10:35:28 Initializing Spring embedded WebApplicationContext
+10:35:28 Root WebApplicationContext: initialization completed in 1430 ms
+10:35:28 No URLs will be polled as dynamic configuration sources.
+10:35:28 To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+10:35:28 DynamicPropertyFactory is initialized with configuration sources: com.netflix.config.ConcurrentCompositeConfiguration@7158daf2
+10:35:29 Cannot determine local hostname
+10:35:30 No URLs will be polled as dynamic configuration sources.
+10:35:30 To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+10:35:30 Initializing ExecutorService 'applicationTaskExecutor'
+10:35:32 Cannot determine local hostname
+10:35:32 Exposing 2 endpoint(s) beneath base path '/actuator'
+10:35:33 Setting initial instance status as: STARTING
+10:35:33 Initializing Eureka in region us-east-1
+10:35:33 Using JSON encoding codec LegacyJacksonJson
+10:35:33 Using JSON decoding codec LegacyJacksonJson
+10:35:33 Using XML encoding codec XStreamXml
+10:35:33 Using XML decoding codec XStreamXml
+10:35:33 Resolving eureka endpoints via configuration
+10:35:34 Disable delta property : false
+10:35:34 Single vip registry refresh property : null
+10:35:34 Force full registry fetch : false
+10:35:34 Application is null : false
+10:35:34 Registered Applications size is zero : true
+10:35:34 Application version is -1: true
+10:35:34 Getting all instance registry info from the eureka server
+10:35:34 The response status is 200
+10:35:34 Starting heartbeat executor: renew interval is: 30
+10:35:34 InstanceInfoReplicator onDemand update allowed rate per min is 4
+10:35:34 Discovery Client initialized at timestamp 1554687334532 with initial instances count: 0
+10:35:34 Registering application EXAPIGAATE with eureka with status UP
+10:35:34 Saw local status change event StatusChangeEvent [timestamp=1554687334534, current=UP, previous=STARTING]
+10:35:34 DiscoveryClient_EXAPIGAATE/localhost:exapigaate:22000: registering service...
+10:35:34 Starting ProtocolHandler ["http-nio-22000"]
+10:35:34 Tomcat started on port(s): 22000 (http) with context path ''
+10:35:34 Updating port to 22000
+10:35:34 Started ApigateExApplication in 11.983 seconds (JVM running for 13.214)
+10:35:34 DiscoveryClient_EXAPIGAATE/localhost:exapigaate:22000 - registration status: 204
+10:35:37 Initializing Spring DispatcherServlet 'dispatcherServlet'
+10:35:37 Initializing Servlet 'dispatcherServlet'
+10:35:37 Completed initialization in 8 ms
+10:36:04 Disable delta property : false
+10:36:04 Single vip registry refresh property : null
+10:36:04 Force full registry fetch : false
+10:36:04 Application is null : false
+10:36:04 Registered Applications size is zero : true
+10:36:04 Application version is -1: false
+10:36:04 Getting all instance registry info from the eureka server
+10:36:04 The response status is 200
+10:38:06 Application shutdown requested.
+10:38:06 Unregistering application EXAPIGAATE with eureka with status DOWN
+10:38:06 Saw local status change event StatusChangeEvent [timestamp=1554687486977, current=DOWN, previous=UP]
+10:38:06 DiscoveryClient_EXAPIGAATE/localhost:exapigaate:22000: registering service...
+10:38:06 Shutting down ExecutorService 'applicationTaskExecutor'
+10:38:06 DiscoveryClient_EXAPIGAATE/localhost:exapigaate:22000 - registration status: 204
+10:38:06 Shutting down DiscoveryClient ...
+10:38:17 Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$167e5c2b] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+10:38:19 No active profile set, falling back to default profiles: default
+10:38:19 Endpoint ID 'service-registry' contains invalid characters, please migrate to a valid format.
+10:38:19 BeanFactory id=e0567de6-8afc-3eda-8836-6c4e7354336a
+10:38:19 Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$167e5c2b] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+10:38:20 Tomcat initialized with port(s): 22000 (http)
+10:38:20 Initializing ProtocolHandler ["http-nio-22000"]
+10:38:20 Starting service [Tomcat]
+10:38:20 Starting Servlet engine: [Apache Tomcat/9.0.17]
+10:38:20 Initializing Spring embedded WebApplicationContext
+10:38:20 Root WebApplicationContext: initialization completed in 1206 ms
+10:38:20 No URLs will be polled as dynamic configuration sources.
+10:38:20 To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+10:38:20 DynamicPropertyFactory is initialized with configuration sources: com.netflix.config.ConcurrentCompositeConfiguration@684b31de
+10:38:21 Cannot determine local hostname
+10:38:22 No URLs will be polled as dynamic configuration sources.
+10:38:22 To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+10:38:22 Initializing ExecutorService 'applicationTaskExecutor'
+10:38:24 Cannot determine local hostname
+10:38:24 Exposing 2 endpoint(s) beneath base path '/actuator'
+10:38:24 Setting initial instance status as: STARTING
+10:38:24 Initializing Eureka in region us-east-1
+10:38:24 Using JSON encoding codec LegacyJacksonJson
+10:38:24 Using JSON decoding codec LegacyJacksonJson
+10:38:24 Using XML encoding codec XStreamXml
+10:38:24 Using XML decoding codec XStreamXml
+10:38:25 Resolving eureka endpoints via configuration
+10:38:25 Initializing Spring DispatcherServlet 'dispatcherServlet'
+10:38:25 Initializing Servlet 'dispatcherServlet'
+10:38:25 Completed initialization in 10 ms
+10:38:25 Disable delta property : false
+10:38:25 Single vip registry refresh property : null
+10:38:25 Force full registry fetch : false
+10:38:25 Application is null : false
+10:38:25 Registered Applications size is zero : true
+10:38:25 Application version is -1: true
+10:38:25 Getting all instance registry info from the eureka server
+10:38:25 The response status is 200
+10:38:25 Starting heartbeat executor: renew interval is: 30
+10:38:25 InstanceInfoReplicator onDemand update allowed rate per min is 4
+10:38:25 Discovery Client initialized at timestamp 1554687505618 with initial instances count: 2
+10:38:25 Registering application EXAPIGAATE with eureka with status UP
+10:38:25 Saw local status change event StatusChangeEvent [timestamp=1554687505620, current=UP, previous=STARTING]
+10:38:25 DiscoveryClient_EXAPIGAATE/localhost:exapigaate:22000: registering service...
+10:38:25 Starting ProtocolHandler ["http-nio-22000"]
+10:38:25 DiscoveryClient_EXAPIGAATE/localhost:exapigaate:22000 - registration status: 204
+10:38:25 Tomcat started on port(s): 22000 (http) with context path ''
+10:38:25 Updating port to 22000
+10:38:25 Started ApigateExApplication in 10.463 seconds (JVM running for 11.54)
+10:39:13 Application shutdown requested.
+10:39:13 Unregistering application EXAPIGAATE with eureka with status DOWN
+10:39:13 Saw local status change event StatusChangeEvent [timestamp=1554687553536, current=DOWN, previous=UP]
+10:39:13 DiscoveryClient_EXAPIGAATE/localhost:exapigaate:22000: registering service...
+10:39:13 Shutting down ExecutorService 'applicationTaskExecutor'
+10:39:13 DiscoveryClient_EXAPIGAATE/localhost:exapigaate:22000 - registration status: 204
+10:39:13 Shutting down DiscoveryClient ...
+10:39:24 Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$54171e6] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+10:39:25 No active profile set, falling back to default profiles: default
+10:39:26 Endpoint ID 'service-registry' contains invalid characters, please migrate to a valid format.
+10:39:26 BeanFactory id=e0567de6-8afc-3eda-8836-6c4e7354336a
+10:39:26 Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$54171e6] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+10:39:26 Tomcat initialized with port(s): 22000 (http)
+10:39:26 Initializing ProtocolHandler ["http-nio-22000"]
+10:39:26 Starting service [Tomcat]
+10:39:26 Starting Servlet engine: [Apache Tomcat/9.0.17]
+10:39:26 Initializing Spring embedded WebApplicationContext
+10:39:26 Root WebApplicationContext: initialization completed in 1037 ms
+10:39:27 No URLs will be polled as dynamic configuration sources.
+10:39:27 To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+10:39:27 DynamicPropertyFactory is initialized with configuration sources: com.netflix.config.ConcurrentCompositeConfiguration@2af46afd
+10:39:28 Cannot determine local hostname
+10:39:28 No URLs will be polled as dynamic configuration sources.
+10:39:28 To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+10:39:29 Initializing ExecutorService 'applicationTaskExecutor'
+10:39:31 Cannot determine local hostname
+10:39:31 Exposing 2 endpoint(s) beneath base path '/actuator'
+10:39:31 Setting initial instance status as: STARTING
+10:39:31 Initializing Eureka in region us-east-1
+10:39:31 Initializing Spring DispatcherServlet 'dispatcherServlet'
+10:39:31 Initializing Servlet 'dispatcherServlet'
+10:39:31 Completed initialization in 10 ms
+10:39:31 Using JSON encoding codec LegacyJacksonJson
+10:39:31 Using JSON decoding codec LegacyJacksonJson
+10:39:31 Using XML encoding codec XStreamXml
+10:39:31 Using XML decoding codec XStreamXml
+10:39:31 Resolving eureka endpoints via configuration
+10:39:32 Disable delta property : false
+10:39:32 Single vip registry refresh property : null
+10:39:32 Force full registry fetch : false
+10:39:32 Application is null : false
+10:39:32 Registered Applications size is zero : true
+10:39:32 Application version is -1: true
+10:39:32 Getting all instance registry info from the eureka server
+10:39:32 The response status is 200
+10:39:32 Starting heartbeat executor: renew interval is: 30
+10:39:32 InstanceInfoReplicator onDemand update allowed rate per min is 4
+10:39:32 Discovery Client initialized at timestamp 1554687572483 with initial instances count: 2
+10:39:32 Registering application EXAPIGAATE with eureka with status UP
+10:39:32 Saw local status change event StatusChangeEvent [timestamp=1554687572485, current=UP, previous=STARTING]
+10:39:32 DiscoveryClient_EXAPIGAATE/localhost:exapigaate:22000: registering service...
+10:39:32 Starting ProtocolHandler ["http-nio-22000"]
+10:39:32 DiscoveryClient_EXAPIGAATE/localhost:exapigaate:22000 - registration status: 204
+10:39:32 Tomcat started on port(s): 22000 (http) with context path ''
+10:39:32 Updating port to 22000
+10:39:32 Started ApigateExApplication in 10.281 seconds (JVM running for 11.372)
+10:41:04 Application shutdown requested.
+10:41:04 Unregistering application EXAPIGAATE with eureka with status DOWN
+10:41:04 Saw local status change event StatusChangeEvent [timestamp=1554687664270, current=DOWN, previous=UP]
+10:41:04 DiscoveryClient_EXAPIGAATE/localhost:exapigaate:22000: registering service...
+10:41:04 Shutting down ExecutorService 'applicationTaskExecutor'
+10:41:04 DiscoveryClient_EXAPIGAATE/localhost:exapigaate:22000 - registration status: 204
+10:41:04 Shutting down DiscoveryClient ...
+10:41:12 Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$a5b28d28] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+10:41:14 No active profile set, falling back to default profiles: default
+10:41:14 Endpoint ID 'service-registry' contains invalid characters, please migrate to a valid format.
+10:41:14 BeanFactory id=e0567de6-8afc-3eda-8836-6c4e7354336a
+10:41:14 Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$a5b28d28] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+10:41:15 Tomcat initialized with port(s): 22000 (http)
+10:41:15 Initializing ProtocolHandler ["http-nio-22000"]
+10:41:15 Starting service [Tomcat]
+10:41:15 Starting Servlet engine: [Apache Tomcat/9.0.17]
+10:41:15 Initializing Spring embedded WebApplicationContext
+10:41:15 Root WebApplicationContext: initialization completed in 1055 ms
+10:41:15 No URLs will be polled as dynamic configuration sources.
+10:41:15 To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+10:41:15 DynamicPropertyFactory is initialized with configuration sources: com.netflix.config.ConcurrentCompositeConfiguration@75fa1be3
+10:41:17 Cannot determine local hostname
+10:41:17 No URLs will be polled as dynamic configuration sources.
+10:41:17 To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+10:41:17 Initializing ExecutorService 'applicationTaskExecutor'
+10:41:19 Cannot determine local hostname
+10:41:19 Exposing 2 endpoint(s) beneath base path '/actuator'
+10:41:19 Setting initial instance status as: STARTING
+10:41:19 Initializing Eureka in region us-east-1
+10:41:19 Initializing Spring DispatcherServlet 'dispatcherServlet'
+10:41:19 Initializing Servlet 'dispatcherServlet'
+10:41:19 Completed initialization in 12 ms
+10:41:20 Using JSON encoding codec LegacyJacksonJson
+10:41:20 Using JSON decoding codec LegacyJacksonJson
+10:41:20 Using XML encoding codec XStreamXml
+10:41:20 Using XML decoding codec XStreamXml
+10:41:20 Resolving eureka endpoints via configuration
+10:41:20 Disable delta property : false
+10:41:20 Single vip registry refresh property : null
+10:41:20 Force full registry fetch : false
+10:41:20 Application is null : false
+10:41:20 Registered Applications size is zero : true
+10:41:20 Application version is -1: true
+10:41:20 Getting all instance registry info from the eureka server
+10:41:20 The response status is 200
+10:41:20 Starting heartbeat executor: renew interval is: 30
+10:41:20 InstanceInfoReplicator onDemand update allowed rate per min is 4
+10:41:20 Discovery Client initialized at timestamp 1554687680890 with initial instances count: 2
+10:41:20 Registering application EXAPIGAATE with eureka with status UP
+10:41:20 Saw local status change event StatusChangeEvent [timestamp=1554687680892, current=UP, previous=STARTING]
+10:41:20 DiscoveryClient_EXAPIGAATE/localhost:exapigaate:22000: registering service...
+10:41:20 Starting ProtocolHandler ["http-nio-22000"]
+10:41:20 DiscoveryClient_EXAPIGAATE/localhost:exapigaate:22000 - registration status: 204
+10:41:20 Tomcat started on port(s): 22000 (http) with context path ''
+10:41:20 Updating port to 22000
+10:41:20 Started ApigateExApplication in 10.612 seconds (JVM running for 11.717)
+10:45:28 Application shutdown requested.
+10:45:28 Unregistering application EXAPIGAATE with eureka with status DOWN
+10:45:28 Saw local status change event StatusChangeEvent [timestamp=1554687928852, current=DOWN, previous=UP]
+10:45:28 DiscoveryClient_EXAPIGAATE/localhost:exapigaate:22000: registering service...
+10:45:28 Shutting down ExecutorService 'applicationTaskExecutor'
+10:45:28 DiscoveryClient_EXAPIGAATE/localhost:exapigaate:22000 - registration status: 204
+10:45:28 Shutting down DiscoveryClient ...
+10:45:37 Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$4297b092] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+10:45:38 No active profile set, falling back to default profiles: default
+10:45:39 Endpoint ID 'service-registry' contains invalid characters, please migrate to a valid format.
+10:45:39 Endpoint ID 'hystrix.stream' contains invalid characters, please migrate to a valid format.
+10:45:39 BeanFactory id=ab6c6e8b-eaf9-32fb-96e9-3ee04f2b0795
+10:45:39 Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$4297b092] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+10:45:39 Tomcat initialized with port(s): 22000 (http)
+10:45:39 Initializing ProtocolHandler ["http-nio-22000"]
+10:45:39 Starting service [Tomcat]
+10:45:39 Starting Servlet engine: [Apache Tomcat/9.0.17]
+10:45:40 Initializing Spring embedded WebApplicationContext
+10:45:40 Root WebApplicationContext: initialization completed in 1261 ms
+10:45:40 No URLs will be polled as dynamic configuration sources.
+10:45:40 To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+10:45:40 DynamicPropertyFactory is initialized with configuration sources: com.netflix.config.ConcurrentCompositeConfiguration@372ca2d6
+10:45:41 Cannot determine local hostname
+10:45:43 Cannot determine local hostname
+10:45:43 No URLs will be polled as dynamic configuration sources.
+10:45:43 To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+10:45:43 Initializing ExecutorService 'applicationTaskExecutor'
+10:45:44 Starting filter initializer
+10:45:44 Exposing 2 endpoint(s) beneath base path '/actuator'
+10:45:44 Setting initial instance status as: STARTING
+10:45:44 Initializing Eureka in region us-east-1
+10:45:45 Using JSON encoding codec LegacyJacksonJson
+10:45:45 Using JSON decoding codec LegacyJacksonJson
+10:45:45 Using XML encoding codec XStreamXml
+10:45:45 Using XML decoding codec XStreamXml
+10:45:45 Resolving eureka endpoints via configuration
+10:45:45 Disable delta property : false
+10:45:45 Single vip registry refresh property : null
+10:45:45 Force full registry fetch : false
+10:45:45 Application is null : false
+10:45:45 Registered Applications size is zero : true
+10:45:45 Application version is -1: true
+10:45:45 Getting all instance registry info from the eureka server
+10:45:45 The response status is 200
+10:45:45 Starting heartbeat executor: renew interval is: 30
+10:45:45 InstanceInfoReplicator onDemand update allowed rate per min is 4
+10:45:45 Discovery Client initialized at timestamp 1554687945833 with initial instances count: 2
+10:45:45 Registering application EXAPIGAATE with eureka with status UP
+10:45:45 Saw local status change event StatusChangeEvent [timestamp=1554687945836, current=UP, previous=STARTING]
+10:45:45 DiscoveryClient_EXAPIGAATE/localhost:exapigaate:22000: registering service...
+10:45:45 Starting ProtocolHandler ["http-nio-22000"]
+10:45:45 DiscoveryClient_EXAPIGAATE/localhost:exapigaate:22000 - registration status: 204
+10:45:45 Tomcat started on port(s): 22000 (http) with context path ''
+10:45:45 Updating port to 22000
+10:45:45 Started ApigateExApplication in 10.999 seconds (JVM running for 12.091)
+10:45:46 Initializing Spring DispatcherServlet 'dispatcherServlet'
+10:45:46 Initializing Servlet 'dispatcherServlet'
+10:45:46 Completed initialization in 9 ms
+10:50:45 Resolving eureka endpoints via configuration
+10:55:45 Resolving eureka endpoints via configuration
+11:00:45 Resolving eureka endpoints via configuration
+11:05:45 Resolving eureka endpoints via configuration
+11:10:45 Resolving eureka endpoints via configuration
+11:15:45 Resolving eureka endpoints via configuration
+11:20:45 Resolving eureka endpoints via configuration
+11:25:45 Resolving eureka endpoints via configuration
+11:30:45 Resolving eureka endpoints via configuration
+11:35:45 Resolving eureka endpoints via configuration
+11:40:45 Resolving eureka endpoints via configuration
+11:45:45 Resolving eureka endpoints via configuration
+11:50:45 Resolving eureka endpoints via configuration
+11:55:45 Resolving eureka endpoints via configuration
+12:00:45 Resolving eureka endpoints via configuration
+12:05:45 Resolving eureka endpoints via configuration
+12:10:45 Resolving eureka endpoints via configuration
+12:15:45 Resolving eureka endpoints via configuration
+12:20:45 Resolving eureka endpoints via configuration
+12:25:45 Resolving eureka endpoints via configuration
+12:30:45 Resolving eureka endpoints via configuration
+12:35:45 Resolving eureka endpoints via configuration
+12:40:45 Resolving eureka endpoints via configuration
+12:45:45 Resolving eureka endpoints via configuration
+12:50:45 Resolving eureka endpoints via configuration
+12:55:45 Resolving eureka endpoints via configuration
+13:00:45 Resolving eureka endpoints via configuration
+13:02:19 Application shutdown requested.
+13:02:19 Unregistering application EXAPIGAATE with eureka with status DOWN
+13:02:19 Saw local status change event StatusChangeEvent [timestamp=1554696139433, current=DOWN, previous=UP]
+13:02:19 DiscoveryClient_EXAPIGAATE/localhost:exapigaate:22000: registering service...
+13:02:19 DiscoveryClient_EXAPIGAATE/localhost:exapigaate:22000 - registration status: 204
+13:02:19 Stopping filter initializer
+13:02:19 Shutting down ExecutorService 'applicationTaskExecutor'
+13:02:19 Shutting down DiscoveryClient ...
+14:44:39 Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$46c4e577] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+14:44:40 No active profile set, falling back to default profiles: default
+14:44:41 Endpoint ID 'service-registry' contains invalid characters, please migrate to a valid format.
+14:44:41 Endpoint ID 'hystrix.stream' contains invalid characters, please migrate to a valid format.
+14:44:41 BeanFactory id=ab6c6e8b-eaf9-32fb-96e9-3ee04f2b0795
+14:44:41 Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$46c4e577] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+14:44:42 Tomcat initialized with port(s): 22000 (http)
+14:44:42 Initializing ProtocolHandler ["http-nio-22000"]
+14:44:42 Starting service [Tomcat]
+14:44:42 Starting Servlet engine: [Apache Tomcat/9.0.17]
+14:44:42 Initializing Spring embedded WebApplicationContext
+14:44:42 Root WebApplicationContext: initialization completed in 1468 ms
+14:44:42 No URLs will be polled as dynamic configuration sources.
+14:44:42 To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+14:44:42 DynamicPropertyFactory is initialized with configuration sources: com.netflix.config.ConcurrentCompositeConfiguration@1cd3b138
+14:44:44 Cannot determine local hostname
+14:44:46 Cannot determine local hostname
+14:44:46 No URLs will be polled as dynamic configuration sources.
+14:44:46 To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+14:44:46 Initializing ExecutorService 'applicationTaskExecutor'
+14:44:47 Starting filter initializer
+14:44:47 Exposing 2 endpoint(s) beneath base path '/actuator'
+14:44:47 Setting initial instance status as: STARTING
+14:44:47 Initializing Eureka in region us-east-1
+14:44:47 Using JSON encoding codec LegacyJacksonJson
+14:44:47 Using JSON decoding codec LegacyJacksonJson
+14:44:47 Using XML encoding codec XStreamXml
+14:44:47 Using XML decoding codec XStreamXml
+14:44:48 Resolving eureka endpoints via configuration
+14:44:48 Disable delta property : false
+14:44:48 Single vip registry refresh property : null
+14:44:48 Force full registry fetch : false
+14:44:48 Application is null : false
+14:44:48 Registered Applications size is zero : true
+14:44:48 Application version is -1: true
+14:44:48 Getting all instance registry info from the eureka server
+14:44:50 Request execution error. endpoint=DefaultEndpoint{ serviceUrl='http://localhost:8761/eureka/}
+com.sun.jersey.api.client.ClientHandlerException: java.net.ConnectException: Connection refused: connect
+	at com.sun.jersey.client.apache4.ApacheHttpClient4Handler.handle(ApacheHttpClient4Handler.java:187)
+	at com.sun.jersey.api.client.filter.GZIPContentEncodingFilter.handle(GZIPContentEncodingFilter.java:123)
+	at com.netflix.discovery.EurekaIdentityHeaderFilter.handle(EurekaIdentityHeaderFilter.java:27)
+	at com.sun.jersey.api.client.Client.handle(Client.java:652)
+	at com.sun.jersey.api.client.WebResource.handle(WebResource.java:682)
+	at com.sun.jersey.api.client.WebResource.access$200(WebResource.java:74)
+	at com.sun.jersey.api.client.WebResource$Builder.get(WebResource.java:509)
+	at com.netflix.discovery.shared.transport.jersey.AbstractJerseyEurekaHttpClient.getApplicationsInternal(AbstractJerseyEurekaHttpClient.java:194)
+	at com.netflix.discovery.shared.transport.jersey.AbstractJerseyEurekaHttpClient.getApplications(AbstractJerseyEurekaHttpClient.java:165)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$6.execute(EurekaHttpClientDecorator.java:137)
+	at com.netflix.discovery.shared.transport.decorator.MetricsCollectingEurekaHttpClient.execute(MetricsCollectingEurekaHttpClient.java:73)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.getApplications(EurekaHttpClientDecorator.java:134)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$6.execute(EurekaHttpClientDecorator.java:137)
+	at com.netflix.discovery.shared.transport.decorator.RedirectingEurekaHttpClient.executeOnNewServer(RedirectingEurekaHttpClient.java:118)
+	at com.netflix.discovery.shared.transport.decorator.RedirectingEurekaHttpClient.execute(RedirectingEurekaHttpClient.java:79)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.getApplications(EurekaHttpClientDecorator.java:134)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$6.execute(EurekaHttpClientDecorator.java:137)
+	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:120)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.getApplications(EurekaHttpClientDecorator.java:134)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$6.execute(EurekaHttpClientDecorator.java:137)
+	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:77)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.getApplications(EurekaHttpClientDecorator.java:134)
+	at com.netflix.discovery.DiscoveryClient.getAndStoreFullRegistry(DiscoveryClient.java:1051)
+	at com.netflix.discovery.DiscoveryClient.fetchRegistry(DiscoveryClient.java:965)
+	at com.netflix.discovery.DiscoveryClient.<init>(DiscoveryClient.java:414)
+	at com.netflix.discovery.DiscoveryClient.<init>(DiscoveryClient.java:269)
+	at org.springframework.cloud.netflix.eureka.CloudEurekaClient.<init>(CloudEurekaClient.java:67)
+	at org.springframework.cloud.netflix.eureka.EurekaClientAutoConfiguration$RefreshableEurekaClientConfiguration.eurekaClient(EurekaClientAutoConfiguration.java:330)
+	at org.springframework.cloud.netflix.eureka.EurekaClientAutoConfiguration$RefreshableEurekaClientConfiguration$$EnhancerBySpringCGLIB$$4e2dde96.CGLIB$eurekaClient$0(<generated>)
+	at org.springframework.cloud.netflix.eureka.EurekaClientAutoConfiguration$RefreshableEurekaClientConfiguration$$EnhancerBySpringCGLIB$$4e2dde96$$FastClassBySpringCGLIB$$de324d03.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:244)
+	at org.springframework.context.annotation.ConfigurationClassEnhancer$BeanMethodInterceptor.intercept(ConfigurationClassEnhancer.java:363)
+	at org.springframework.cloud.netflix.eureka.EurekaClientAutoConfiguration$RefreshableEurekaClientConfiguration$$EnhancerBySpringCGLIB$$4e2dde96.eurekaClient(<generated>)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:154)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:622)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:607)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1321)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1160)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:555)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:515)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$1(AbstractBeanFactory.java:356)
+	at org.springframework.cloud.context.scope.GenericScope$BeanLifecycleWrapper.getBean(GenericScope.java:389)
+	at org.springframework.cloud.context.scope.GenericScope.get(GenericScope.java:186)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:353)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199)
+	at org.springframework.aop.target.SimpleBeanTargetSource.getTarget(SimpleBeanTargetSource.java:35)
+	at org.springframework.cloud.netflix.eureka.serviceregistry.EurekaRegistration.getTargetObject(EurekaRegistration.java:129)
+	at org.springframework.cloud.netflix.eureka.serviceregistry.EurekaRegistration.getEurekaClient(EurekaRegistration.java:117)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.springframework.util.ReflectionUtils.invokeMethod(ReflectionUtils.java:282)
+	at org.springframework.cloud.context.scope.GenericScope$LockedScopedProxyFactoryBean.invoke(GenericScope.java:499)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:688)
+	at org.springframework.cloud.netflix.eureka.serviceregistry.EurekaRegistration$$EnhancerBySpringCGLIB$$a5ba4ab1.getEurekaClient(<generated>)
+	at org.springframework.cloud.netflix.eureka.serviceregistry.EurekaServiceRegistry.maybeInitializeClient(EurekaServiceRegistry.java:57)
+	at org.springframework.cloud.netflix.eureka.serviceregistry.EurekaServiceRegistry.register(EurekaServiceRegistry.java:38)
+	at org.springframework.cloud.netflix.eureka.serviceregistry.EurekaAutoServiceRegistration.start(EurekaAutoServiceRegistration.java:83)
+	at org.springframework.context.support.DefaultLifecycleProcessor.doStart(DefaultLifecycleProcessor.java:182)
+	at org.springframework.context.support.DefaultLifecycleProcessor.access$200(DefaultLifecycleProcessor.java:53)
+	at org.springframework.context.support.DefaultLifecycleProcessor$LifecycleGroup.start(DefaultLifecycleProcessor.java:360)
+	at org.springframework.context.support.DefaultLifecycleProcessor.startBeans(DefaultLifecycleProcessor.java:158)
+	at org.springframework.context.support.DefaultLifecycleProcessor.onRefresh(DefaultLifecycleProcessor.java:122)
+	at org.springframework.context.support.AbstractApplicationContext.finishRefresh(AbstractApplicationContext.java:893)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.finishRefresh(ServletWebServerApplicationContext.java:163)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:552)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:142)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:775)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:397)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:316)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1260)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1248)
+	at com.wintech.ApigateExApplication.main(ApigateExApplication.java:14)
+Caused by: java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.doConnect(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.connect(Unknown Source)
+	at java.net.PlainSocketImpl.connect(Unknown Source)
+	at java.net.SocksSocketImpl.connect(Unknown Source)
+	at java.net.Socket.connect(Unknown Source)
+	at org.apache.http.conn.scheme.PlainSocketFactory.connectSocket(PlainSocketFactory.java:121)
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:180)
+	at org.apache.http.impl.conn.AbstractPoolEntry.open(AbstractPoolEntry.java:144)
+	at org.apache.http.impl.conn.AbstractPooledConnAdapter.open(AbstractPooledConnAdapter.java:134)
+	at org.apache.http.impl.client.DefaultRequestDirector.tryConnect(DefaultRequestDirector.java:605)
+	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:440)
+	at org.apache.http.impl.client.AbstractHttpClient.doExecute(AbstractHttpClient.java:835)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:118)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:56)
+	at com.sun.jersey.client.apache4.ApacheHttpClient4Handler.handle(ApacheHttpClient4Handler.java:173)
+	... 78 common frames omitted
+14:44:50 Request execution failed with message: java.net.ConnectException: Connection refused: connect
+14:44:50 DiscoveryClient_EXAPIGAATE/localhost:exapigaate:22000 - was unable to refresh its cache! status = Cannot execute request on any known server
+com.netflix.discovery.shared.transport.TransportException: Cannot execute request on any known server
+	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:112)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.getApplications(EurekaHttpClientDecorator.java:134)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$6.execute(EurekaHttpClientDecorator.java:137)
+	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:77)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.getApplications(EurekaHttpClientDecorator.java:134)
+	at com.netflix.discovery.DiscoveryClient.getAndStoreFullRegistry(DiscoveryClient.java:1051)
+	at com.netflix.discovery.DiscoveryClient.fetchRegistry(DiscoveryClient.java:965)
+	at com.netflix.discovery.DiscoveryClient.<init>(DiscoveryClient.java:414)
+	at com.netflix.discovery.DiscoveryClient.<init>(DiscoveryClient.java:269)
+	at org.springframework.cloud.netflix.eureka.CloudEurekaClient.<init>(CloudEurekaClient.java:67)
+	at org.springframework.cloud.netflix.eureka.EurekaClientAutoConfiguration$RefreshableEurekaClientConfiguration.eurekaClient(EurekaClientAutoConfiguration.java:330)
+	at org.springframework.cloud.netflix.eureka.EurekaClientAutoConfiguration$RefreshableEurekaClientConfiguration$$EnhancerBySpringCGLIB$$4e2dde96.CGLIB$eurekaClient$0(<generated>)
+	at org.springframework.cloud.netflix.eureka.EurekaClientAutoConfiguration$RefreshableEurekaClientConfiguration$$EnhancerBySpringCGLIB$$4e2dde96$$FastClassBySpringCGLIB$$de324d03.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:244)
+	at org.springframework.context.annotation.ConfigurationClassEnhancer$BeanMethodInterceptor.intercept(ConfigurationClassEnhancer.java:363)
+	at org.springframework.cloud.netflix.eureka.EurekaClientAutoConfiguration$RefreshableEurekaClientConfiguration$$EnhancerBySpringCGLIB$$4e2dde96.eurekaClient(<generated>)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:154)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:622)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:607)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1321)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1160)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:555)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:515)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$1(AbstractBeanFactory.java:356)
+	at org.springframework.cloud.context.scope.GenericScope$BeanLifecycleWrapper.getBean(GenericScope.java:389)
+	at org.springframework.cloud.context.scope.GenericScope.get(GenericScope.java:186)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:353)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199)
+	at org.springframework.aop.target.SimpleBeanTargetSource.getTarget(SimpleBeanTargetSource.java:35)
+	at org.springframework.cloud.netflix.eureka.serviceregistry.EurekaRegistration.getTargetObject(EurekaRegistration.java:129)
+	at org.springframework.cloud.netflix.eureka.serviceregistry.EurekaRegistration.getEurekaClient(EurekaRegistration.java:117)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.springframework.util.ReflectionUtils.invokeMethod(ReflectionUtils.java:282)
+	at org.springframework.cloud.context.scope.GenericScope$LockedScopedProxyFactoryBean.invoke(GenericScope.java:499)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:688)
+	at org.springframework.cloud.netflix.eureka.serviceregistry.EurekaRegistration$$EnhancerBySpringCGLIB$$a5ba4ab1.getEurekaClient(<generated>)
+	at org.springframework.cloud.netflix.eureka.serviceregistry.EurekaServiceRegistry.maybeInitializeClient(EurekaServiceRegistry.java:57)
+	at org.springframework.cloud.netflix.eureka.serviceregistry.EurekaServiceRegistry.register(EurekaServiceRegistry.java:38)
+	at org.springframework.cloud.netflix.eureka.serviceregistry.EurekaAutoServiceRegistration.start(EurekaAutoServiceRegistration.java:83)
+	at org.springframework.context.support.DefaultLifecycleProcessor.doStart(DefaultLifecycleProcessor.java:182)
+	at org.springframework.context.support.DefaultLifecycleProcessor.access$200(DefaultLifecycleProcessor.java:53)
+	at org.springframework.context.support.DefaultLifecycleProcessor$LifecycleGroup.start(DefaultLifecycleProcessor.java:360)
+	at org.springframework.context.support.DefaultLifecycleProcessor.startBeans(DefaultLifecycleProcessor.java:158)
+	at org.springframework.context.support.DefaultLifecycleProcessor.onRefresh(DefaultLifecycleProcessor.java:122)
+	at org.springframework.context.support.AbstractApplicationContext.finishRefresh(AbstractApplicationContext.java:893)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.finishRefresh(ServletWebServerApplicationContext.java:163)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:552)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:142)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:775)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:397)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:316)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1260)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1248)
+	at com.wintech.ApigateExApplication.main(ApigateExApplication.java:14)
+14:44:50 Using default backup registry implementation which does not do anything.
+14:44:50 Starting heartbeat executor: renew interval is: 30
+14:44:50 InstanceInfoReplicator onDemand update allowed rate per min is 4
+14:44:50 Discovery Client initialized at timestamp 1554702290757 with initial instances count: 0
+14:44:50 Registering application EXAPIGAATE with eureka with status UP
+14:44:50 Saw local status change event StatusChangeEvent [timestamp=1554702290761, current=UP, previous=STARTING]
+14:44:50 DiscoveryClient_EXAPIGAATE/localhost:exapigaate:22000: registering service...
+14:44:50 Starting ProtocolHandler ["http-nio-22000"]
+14:44:50 Tomcat started on port(s): 22000 (http) with context path ''
+14:44:50 Updating port to 22000
+14:44:50 Started ApigateExApplication in 13.832 seconds (JVM running for 15.016)
+14:44:51 DiscoveryClient_EXAPIGAATE/localhost:exapigaate:22000 - registration status: 204
+14:45:20 Disable delta property : false
+14:45:20 Single vip registry refresh property : null
+14:45:20 Force full registry fetch : false
+14:45:20 Application is null : false
+14:45:20 Registered Applications size is zero : true
+14:45:20 Application version is -1: true
+14:45:20 Getting all instance registry info from the eureka server
+14:45:20 The response status is 200
+14:46:00 Initializing Spring DispatcherServlet 'dispatcherServlet'
+14:46:00 Initializing Servlet 'dispatcherServlet'
+14:46:00 Completed initialization in 11 ms
+14:49:48 Resolving eureka endpoints via configuration
+14:54:48 Resolving eureka endpoints via configuration
+14:58:07 Application shutdown requested.
+14:58:07 Unregistering application EXAPIGAATE with eureka with status DOWN
+14:58:07 Saw local status change event StatusChangeEvent [timestamp=1554703087747, current=DOWN, previous=UP]
+14:58:07 DiscoveryClient_EXAPIGAATE/localhost:exapigaate:22000: registering service...
+14:58:07 Stopping filter initializer
+14:58:07 Shutting down ExecutorService 'applicationTaskExecutor'
+14:58:07 Shutting down DiscoveryClient ...
